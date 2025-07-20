@@ -1,4 +1,4 @@
-baseURL = 'https://weeks.citrusea.cc/'
+baseURL = 'http://weeks.citrusea.cc/'
 languageCode = 'en-us'
 title = 'My Life in Weeks'
 disableKinds = ["taxonomy", "taxonomy"]
