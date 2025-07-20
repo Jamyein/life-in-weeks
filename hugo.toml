@@ -1,7 +1,7 @@
 baseURL = 'https://weeks.citrusea.cc/'
 languageCode = 'en-us'
 title = 'My Life in Weeks'
-disableKinds = ["taxonomy", "taxonomy"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 
 

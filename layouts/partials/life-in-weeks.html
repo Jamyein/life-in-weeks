@@ -26,7 +26,8 @@ There are three main loops in this page, each nested inside the other: Years, We
 {{ $startYear := index $splitStart 0 }}
 {{ $startMonth := index $splitStart 1 }}
 {{ $startDay := index $splitStart 2 }}
-{{ $endYear := .Params.end_year }}
+{{ $startYearInt := int $startYear }}
+{{ $endYear := add $startYearInt 90 }}
 {{ $.Store.Set "association" "" }}
 {{ $.Store.Set "specificDate" $startDate }}
 
@@ -158,6 +159,7 @@ There are three main loops in this page, each nested inside the other: Years, We
                                 {{ $.Store.Set "doing" .doing }}
                                 {{ $.Store.Set "doingClass" (replace (lower .doing) " " "-") }}
                             {{ end }}
+                            
                             {{ if ne .association nil }}
                                 {{ $.Store.Set "association" .association }}
                             {{ end }}
@@ -177,6 +179,7 @@ There are three main loops in this page, each nested inside the other: Years, We
                                     ($.Store.Get "based"))
                                 }}
                             {{ end }}
+
                             {{ $buttonLabel := .headline }}
                             {{ $.Store.Set "buttonLabel" $buttonLabel }}
 
