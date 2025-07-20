@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # This list color-codes the Life in Weeks grid.
 # The box's border color represents where I was living,
@@ -13,32 +14,84 @@
   element: "border"
   color_name: "#FCC737"
 - class_name: "worker"
+=======
+# Link for palette: https://tailwindcolor.com/
+
+# LOCATIONS - Use 400
+- class_name: "buenos-aires"
   element: "border"
-  color_name: "#118B50"
-- class_name: "poughkeepsie"
+  color_name: "#94A3B8"
+
+- class_name: "berlin"
   element: "border"
-  color_name: "#469046"
+  color_name: "#F87171"
+
+- class_name: "sydney"
+>>>>>>> 3879925763be34335a83f6f104be1f64b2ce12eb
+  element: "border"
+  color_name: "#60A5FA"
+
+- class_name: "copenhagen"
+  element: "border"
+  color_name: "#FACC15"
+
+- class_name: "asia"
+  element: "border"
+  color_name: "#C084FC"
+
+- class_name: "munich"
+  element: "border"
+  color_name: "#ff8904"
+
+# DOING - Use 100
 - class_name: "i-was-tiny"
   element: "background-color"
   color_name: "white"
-- class_name: "kindergartner"
+
+- class_name: "playing-in-the-kinder-garden"
   element: "background-color"
-  color_name: "#FFF6DA"
-- class_name: "student"
+  color_name: "#cbfbf1"
+
+- class_name: "learning-to-read-and-write"
   element: "background-color"
-  color_name: "#E8F9FF"
-- class_name: "high-school-student"
+  color_name: "#cefafe"
+
+- class_name: "being-a-stupid-teenager"
   element: "background-color"
-  color_name: "#C9E9D2"
-- class_name: "college-student"
+  color_name: "#dff2fe"
+
+- class_name: "learning-to-be-a-programmer"
   element: "background-color"
-  color_name: "#FFE3E3"
+  color_name: "#ede9fe"
+
+- class_name: "studying-computer-science"
+  element: "background-color"
+  color_name: "#fce7f3"
+
+- class_name: "studying-ai"
+  element: "background-color"
+  color_name: "#FFE4E6"
+
+- class_name: "studying-german"
+  element: "background-color"
+  color_name: "#FFE4E6"
+
+- class_name: "travelling"
+  element: "background-color"
+  color_name: "#F3E8FF"
+
+- class_name: "watching-football"
+  element: "background-color"
+  color_name: "#D1FAE5"
+
+- class_name: "staying-at-home"
+  element: "background-color"
+  color_name: "#F5F5F4"
+
 - class_name: "working"
   element: "background-color"
-  color_name: "#F8E7F6"
-- class_name: "freelancing"
-  element: "background-color"
-  color_name: "#d6d6f0"
-- class_name: "funemployed"
+  color_name: "#ffedd4"
+
+- class_name: "enjoying-life"
   element: "background-color"
   color_name: "white"
