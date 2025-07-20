@@ -1,25 +1,21 @@
 {{ define "body" }}
 <body
-  data-bs-spy="scroll"
-  data-bs-target="#lifeinweeks-navbar"
-  data-bs-offset="0"
-  tabindex="0"
+    data-bs-spy="scroll"
+    data-bs-target="#lifeinweeks-navbar"
+    data-bs-offset="0"
+    tabindex="0"
 >
-  <div id="fullscreen" class="justify-content-center">
-    <div>
-      <section class="life-in-weeks">
-        {{ partial "header/navbar.html" . }}
-        <div class="row justify-content-center mt-3">
-          <div class="col-12">{{ .Content }}</div>
+    <div id="fullscreen" class="justify-content-center">
+        <div>
+            <section class="life-in-weeks">
+                {{ partial "header/navbar.html" . }}
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12">{{ .Content }}</div>
+                </div>
+                {{ partial "life-in-weeks.html" . }}
+            </section>
         </div>
-        {{ partial "life-in-weeks.html" . }}
-
-        <p class="mt-1" style="text-align: right">
-          Last update: {{ now.Format "January 2, 2006" }}
-        </p>
-      </section>
     </div>
-  </div>
-  {{ partial "helpers/scripts.html" . }}
+{{ partial "helpers/scripts.html" . }}
 </body>
 {{ end }}
